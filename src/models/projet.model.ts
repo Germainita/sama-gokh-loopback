@@ -28,10 +28,10 @@ export class Projet extends Entity {
   image: string;
 
   @property({
-    type: 'string',
+    type: 'number',
     required: true,
   })
-  cout: string;
+  cout: number;
 
   @property({
     type: 'string',
