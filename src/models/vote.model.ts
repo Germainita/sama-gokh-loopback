@@ -13,7 +13,7 @@ export class Vote extends Entity {
     type: 'string',
     required: true,
   })
-  status: string;
+  scrutin: string;
 
   @property({
     type: 'number',

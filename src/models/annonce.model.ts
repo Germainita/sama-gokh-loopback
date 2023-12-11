@@ -22,10 +22,10 @@ export class Annonce extends Entity {
   image: string;
 
   @property({
-    type: 'string',
+    type: 'boolean',
     required: true,
   })
-  etat: string;
+  etat: boolean;
 
   @property({
     type: 'string',

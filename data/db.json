@@ -1,12 +1,24 @@
 {
   "ids": {
     "Role": 4,
-    "TypeProjet": 3
+    "TypeProjet": 3,
+    "Annonce": 5,
+    "User": 3
   },
   "models": {
     "TypeProjet": {
       "1": "{\"nom\":\"municipal\",\"createdAt\":\"11/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"\",\"updatedBy\":\"\",\"id\":1}",
       "2": "{\"nom\":\"citoyen\",\"createdAt\":\"11/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"\",\"updatedBy\":\"\",\"id\":2}"
+    },
+    "Annonce": {
+      "1": "{\"titre\":\"Reboisement\",\"image\":\"string\",\"etat\":true,\"description\":\"sauvons la nature\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":1}",
+      "2": "{\"titre\":\"Journée don de sang\",\"image\":\"string\",\"etat\":true,\"description\":\"sauvons des vies\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":2}",
+      "3": "{\"titre\":\"Journée porte ouverte\",\"image\":\"string\",\"etat\":true,\"description\":\"Biblitotheque\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":3}",
+      "4": "{\"titre\":\"ma ville propre\",\"image\":\"string\",\"etat\":true,\"description\":\"sete setal dans la commune\",\"idUser\":2,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":4}"
+    },
+    "User": {
+      "1": "{\"nom\":\"Fall\",\"prenom\":\"Amadem\",\"dateNaissance\":\"30/09/2000\",\"email\":\"amadem@gmail.com\",\"password\":\"passer\",\"telephone\":\"771234578\",\"etat\":true,\"username\":\"amadem1\",\"cni\":0,\"sexe\":\"Homme\",\"createdAt\":\"12/12/2023\",\"createdBy\":\"maire\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"maire\",\"id\":1}",
+      "2": "{\"nom\":\"Diouf\",\"prenom\":\"Germaine\",\"dateNaissance\":\"10/06/2001\",\"email\":\"germaine@gmail.com\",\"password\":\"passer\",\"telephone\":\"771226589\",\"etat\":true,\"username\":\"gege1\",\"cni\":0,\"sexe\":\"femme\",\"createdAt\":\"13/12/2023\",\"createdBy\":\"maire\",\"updatedAt\":\"16/12/2023\",\"updatedBy\":\"maire\",\"id\":2}"
     }
   }
 }

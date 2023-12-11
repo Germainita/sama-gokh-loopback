@@ -45,10 +45,10 @@ export class User extends Entity {
   telephone: string;
 
   @property({
-    type: 'string',
+    type: 'boolean',
     required: true,
   })
-  etat: string;
+  etat: boolean;
 
   @property({
     type: 'string',
