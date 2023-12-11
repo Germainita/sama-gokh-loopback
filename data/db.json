@@ -2,8 +2,10 @@
   "ids": {
     "Role": 4,
     "TypeProjet": 3,
-    "Annonce": 5,
-    "User": 3
+    "Annonce": 8,
+    "User": 3,
+    "Ville": 2,
+    "Projet": 4
   },
   "models": {
     "TypeProjet": {
@@ -11,14 +13,25 @@
       "2": "{\"nom\":\"citoyen\",\"createdAt\":\"11/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"\",\"updatedBy\":\"\",\"id\":2}"
     },
     "Annonce": {
-      "1": "{\"titre\":\"Reboisement\",\"image\":\"string\",\"etat\":true,\"description\":\"sauvons la nature\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":1}",
+      "1": "{\"id\":1,\"titre\":\"set setal\",\"image\":\"string\",\"etat\":true,\"description\":\"ma commune propre \",\"idUser\":2,\"createdAt\":\"13/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"19/12/2023\",\"updatedBy\":\"germaine\"}",
       "2": "{\"titre\":\"Journée don de sang\",\"image\":\"string\",\"etat\":true,\"description\":\"sauvons des vies\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":2}",
       "3": "{\"titre\":\"Journée porte ouverte\",\"image\":\"string\",\"etat\":true,\"description\":\"Biblitotheque\",\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":3}",
-      "4": "{\"titre\":\"ma ville propre\",\"image\":\"string\",\"etat\":true,\"description\":\"sete setal dans la commune\",\"idUser\":2,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":4}"
+      "4": "{\"titre\":\"ma ville propre\",\"image\":\"string\",\"etat\":true,\"description\":\"sete setal dans la commune\",\"idUser\":2,\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":4}",
+      "5": "{\"titre\":\"soirée de galla\",\"image\":\"string\",\"etat\":true,\"description\":\"entrez gratuite\",\"idUser\":1,\"createdAt\":\"12/12/2023\",\"createdBy\":\"amadem\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"amadem\",\"id\":5}",
+      "6": "{\"titre\":\"khawaré\",\"image\":\"string\",\"etat\":true,\"description\":\"entrez gratuite\",\"idUser\":1,\"createdAt\":\"12/12/2023\",\"createdBy\":\"amadem\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"amadem\",\"id\":6}",
+      "7": "{\"titre\":\"match de galla\",\"image\":\"string\",\"etat\":true,\"description\":\"au stade demba diop\",\"idUser\":1,\"createdAt\":\"16/12/2023\",\"createdBy\":\"amadem\",\"updatedAt\":\"18/12/2023\",\"updatedBy\":\"amadem\",\"id\":7}"
     },
     "User": {
       "1": "{\"nom\":\"Fall\",\"prenom\":\"Amadem\",\"dateNaissance\":\"30/09/2000\",\"email\":\"amadem@gmail.com\",\"password\":\"passer\",\"telephone\":\"771234578\",\"etat\":true,\"username\":\"amadem1\",\"cni\":0,\"sexe\":\"Homme\",\"createdAt\":\"12/12/2023\",\"createdBy\":\"maire\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"maire\",\"id\":1}",
       "2": "{\"nom\":\"Diouf\",\"prenom\":\"Germaine\",\"dateNaissance\":\"10/06/2001\",\"email\":\"germaine@gmail.com\",\"password\":\"passer\",\"telephone\":\"771226589\",\"etat\":true,\"username\":\"gege1\",\"cni\":0,\"sexe\":\"femme\",\"createdAt\":\"13/12/2023\",\"createdBy\":\"maire\",\"updatedAt\":\"16/12/2023\",\"updatedBy\":\"maire\",\"id\":2}"
+    },
+    "Ville": {
+      "1": "{\"nom\":\"Dakar\",\"createdAt\":\"12/12/2023\",\"createdBy\":\"Amadou\",\"updatedAt\":\"12/12/2023\",\"updatedBy\":\"Amadou\",\"id\":1}"
+    },
+    "Projet": {
+      "1": "{\"titre\":\"ma ville propre\",\"description\":\"ville propre\",\"image\":\"https://img.freepik.com/photos-gratuite/boite-tenue-femme-pleine-coup_23-2149894684.jpg?size=626&ext=jpg&ga=GA1.1.1598110183.1692458193&semt=ais\",\"cout\":\"300 000 000\",\"delai\":\"30/12/12\",\"etat\":true,\"cloture_vote\":\"12/12/2023\",\"idEtatProjet\":0,\"idTypeProjet\":0,\"idUser\":0,\"createdAt\":\"12/12/2023\",\"createdBy\":\"amadou\",\"updatedAt\":\"12/12/2022\",\"updatedBy\":\"amadou\",\"id\":1}",
+      "2": "{\"titre\":\"autosuffisance alimentaire\",\"description\":\"zéro importatation\",\"image\":\"https://img.freepik.com/photos-gratuite/boite-tenue-femme-pleine-coup_23-2149894684.jpg?size=626&ext=jpg&ga=GA1.1.1598110183.1692458193&semt=ais\",\"cout\":\"400 000 000\",\"delai\":\"30/12/12\",\"etat\":true,\"cloture_vote\":\"15/12/2023\",\"idEtatProjet\":0,\"idTypeProjet\":0,\"idUser\":0,\"createdAt\":\"19/12/2023\",\"createdBy\":\"fatou\",\"updatedAt\":\"13/12/2022\",\"updatedBy\":\"fatou\",\"id\":2}",
+      "3": "{\"titre\":\"autosuffisance alimentaire\",\"description\":\"zéro importatation\",\"image\":\"https://img.freepik.com/photos-gratuite/boite-tenue-femme-pleine-coup_23-2149894684.jpg?size=626&ext=jpg&ga=GA1.1.1598110183.1692458193&semt=ais\",\"cout\":\"400 000 000\",\"delai\":\"30/12/12\",\"etat\":true,\"cloture_vote\":\"15/12/2023\",\"idEtatProjet\":0,\"idTypeProjet\":0,\"idUser\":0,\"createdAt\":\"19/12/2023\",\"createdBy\":\"fatou\",\"updatedAt\":\"13/12/2022\",\"updatedBy\":\"fatou\",\"id\":3}"
     }
   }
 }

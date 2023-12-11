@@ -34,10 +34,10 @@ export class Commune extends Entity {
   idVille: number;
 
   @property({
-    type: 'string',
+    type: 'Date',
     required: true,
   })
-  createdAt: string;
+  createdAt: Date;
 
   @property({
     type: 'string',
@@ -51,9 +51,9 @@ export class Commune extends Entity {
   updatedAt?: string;
 
   @property({
-    type: 'string',
+    type: 'Date',
   })
-  updatedBy?: string;
+  updatedBy?: Date;
 
   constructor(data?: Partial<Commune>) {
     super(data);

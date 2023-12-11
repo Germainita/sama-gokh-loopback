@@ -19,7 +19,7 @@ export class Commentaire extends Entity {
     type: 'string',
     required: true,
   })
-  createdAt: string;
+  createdAt: Date;
 
   @property({
     type: 'string',
@@ -30,7 +30,7 @@ export class Commentaire extends Entity {
   @property({
     type: 'string',
   })
-  updatedAt?: string;
+  updatedAt?: Date;
 
   @property({
     type: 'string',
