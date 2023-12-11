@@ -28,10 +28,10 @@ export class Vote extends Entity {
   idUser: number;
 
   @property({
-    type: 'string',
+    type: 'Date',
     required: true,
   })
-  createdAt: string;
+  createdAt: Date;
 
   @property({
     type: 'string',
@@ -40,9 +40,9 @@ export class Vote extends Entity {
   createdBy: string;
 
   @property({
-    type: 'string',
+    type: 'Date',
   })
-  updatedAt?: string;
+  updatedAt?: Date;
 
   @property({
     type: 'string',
