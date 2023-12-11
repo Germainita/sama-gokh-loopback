@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "Role": 4,
+    "TypeProjet": 3
+  },
+  "models": {
+    "TypeProjet": {
+      "1": "{\"nom\":\"municipal\",\"createdAt\":\"11/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"\",\"updatedBy\":\"\",\"id\":1}",
+      "2": "{\"nom\":\"citoyen\",\"createdAt\":\"11/12/2023\",\"createdBy\":\"germaine\",\"updatedAt\":\"\",\"updatedBy\":\"\",\"id\":2}"
+    }
+  }
+}
