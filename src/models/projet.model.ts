@@ -34,22 +34,16 @@ export class Projet extends Entity {
   cout: number;
 
   @property({
-    type: 'string',
+    type: 'Date',
     required: true,
   })
-  delai: string;
+  delai: Date;
 
   @property({
     type: 'boolean',
     required: true,
   })
   etat: boolean;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  cloture_vote: string;
 
   @property({
     type: 'number',
@@ -70,10 +64,10 @@ export class Projet extends Entity {
   idUser: number;
 
   @property({
-    type: 'string',
+    type: 'Date',
     required: true,
   })
-  createdAt: string;
+  createdAt: Date;
 
   @property({
     type: 'string',
@@ -82,15 +76,14 @@ export class Projet extends Entity {
   createdBy: string;
 
   @property({
-    type: 'string',
+    type: 'Date',
   })
-  updatedAt?: string;
+  updatedAt?: Date;
 
   @property({
     type: 'string',
   })
   updatedBy?: string;
-
 
   constructor(data?: Partial<Projet>) {
     super(data);

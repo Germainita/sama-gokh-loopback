@@ -16,10 +16,10 @@ export class TypeProjet extends Entity {
   nom: string;
 
   @property({
-    type: 'string',
+    type: 'Date',
     required: true,
   })
-  createdAt: string;
+  createdAt: Date;
 
   @property({
     type: 'string',
@@ -28,15 +28,14 @@ export class TypeProjet extends Entity {
   createdBy: string;
 
   @property({
-    type: 'string',
+    type: 'Date',
   })
-  updatedAt?: string;
+  updatedAt?: Date;
 
   @property({
     type: 'string',
   })
   updatedBy?: string;
-
 
   constructor(data?: Partial<TypeProjet>) {
     super(data);
