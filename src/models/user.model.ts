@@ -23,12 +23,6 @@ export class User extends Entity {
 
   @property({
     type: 'string',
-    required: true,
-  })
-  dateNaissance: string;
-
-  @property({
-    type: 'string',
   })
   email?: string;
 
